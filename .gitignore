@@ -1,1 +1,8 @@
-node_modules\ndist\n.env\n.env.local
+node_modules/
+.next/
+out/
+dist/
+.pnpm-store/
+.env
+.env.local
+*.log
