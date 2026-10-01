@@ -1,6 +1,7 @@
 import "./globals.css";
 import "./sections.css";
 import "./personal.css";
+import "./redesign.css";
 import { WorkspaceProvider } from "@/store/WorkspaceContext";
 
 export const metadata = {

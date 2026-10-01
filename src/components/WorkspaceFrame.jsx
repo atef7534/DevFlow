@@ -230,6 +230,7 @@ function NavigationLink({ item, active, onClick }) {
     <Link
       href={item.href}
       onClick={onClick}
+      title={item.label}
       className={`nav-link ${active ? "nav-link-active" : ""}`}
       aria-current={active ? "page" : undefined}
     >

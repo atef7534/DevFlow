@@ -184,14 +184,19 @@ export default function TodayPage() {
           </h1>
           <p>Here’s what matters today.</p>
         </div>
-        <div className="today-date-note">
+        <Link
+          className="today-date-note"
+          href="/tasks"
+          aria-label="Open your task plan"
+        >
           <Sparkles size={14} />
           <span>
             Keep it small.
             <br />
             <strong>Keep it moving.</strong>
           </span>
-        </div>
+          <ArrowRight className="today-date-arrow" size={15} />
+        </Link>
       </div>
 
       <div className="overview-strip" aria-label="Today's overview">
